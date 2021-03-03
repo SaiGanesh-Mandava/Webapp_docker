@@ -1,0 +1,2 @@
+# Webapp_docker
+Deploy the containerized application on the open source container orchestration platform Kubernetes to enable scalability and resiliency of the application. Your baseline configuration includes at least three pods running all the time. You can use Rancher (https://rancher.com/docs) to install Kubernetes distribution supported by Rancher Kubernetes Engine (RKE). You have an option to use either Amazon Web Services (AWS
