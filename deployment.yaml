@@ -2,9 +2,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example-deploy
+  name: swe645-deploy
   labels:
-    app: example-app
+    app: swe645-app
     test: test
 #   annotations:
 #     fluxcd.io/tag.example-app: semver:~1.0
@@ -12,7 +12,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: example-app
+      app: swe645-app
   replicas: 3
   strategy:
     type: RollingUpdate
@@ -22,10 +22,10 @@ spec:
   template:
     metadata:
       labels:
-        app: example-app
+        app: swe645-app
     spec:
       containers:
-      - name: example-app
+      - name: swe645-app
         image: ganeshmandava1247889/webserver:latest
         imagePullPolicy: Always
         ports:
