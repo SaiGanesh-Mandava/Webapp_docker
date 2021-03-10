@@ -3,4 +3,4 @@ MAINTAINER sai_ganesh_mandava
 
 COPY SWE645.war  /usr/local/tomcat/webapps/
 
-EXPOSE 8081
+EXPOSE 8085
