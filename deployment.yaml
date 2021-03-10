@@ -6,14 +6,14 @@ metadata:
   labels:
     app: example-app
     test: test
-  annotations:
-    fluxcd.io/tag.example-app: semver:~1.0
-    fluxcd.io/automated: 'true'
+#   annotations:
+#     fluxcd.io/tag.example-app: semver:~1.0
+#     fluxcd.io/automated: 'true'
 spec:
   selector:
     matchLabels:
       app: example-app
-  replicas: 2
+  replicas: 3
   strategy:
     type: RollingUpdate
     rollingUpdate:
