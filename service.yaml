@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: example-service
+  name: swe645-service
   labels:
-    app: example-app
+    app: swe645-app
 spec:
   type: LoadBalancer
   selector:
-    app: example-app
+    app: swe645-app
   ports:
     - protocol: TCP
       name: http
