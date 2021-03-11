@@ -29,7 +29,7 @@ spec:
         image: ganeshmandava1247889/webserver:latest
         imagePullPolicy: Always
         ports:
-        - containerPort: 5000
+        - containerPort: 8080
         # livenessProbe:
         #   httpGet:
         #     path: /status
