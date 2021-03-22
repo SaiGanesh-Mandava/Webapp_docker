@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag ganeshmandava1247889/swe645_webserver:$(date +%s)
+      run: docker build . --file Dockerfile --tag ganeshmandava1247889/swe645_webserver:latest
