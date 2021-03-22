@@ -1,2 +1,4 @@
 # Webapp_docker
-Deploy the containerized application on the open source container orchestration platform Kubernetes to enable scalability and resiliency of the application. Your baseline configuration includes at least three pods running all the time. You can use Rancher (https://rancher.com/docs) to install Kubernetes distribution supported by Rancher Kubernetes Engine (RKE). You have an option to use either Amazon Web Services (AWS
+This is a demo repository that contains docker file alongside the war file. There is workflow that has been setup to build and push the docker image into the dockerhub public repository ganeshmandava1247889/Webserver.
+
+
